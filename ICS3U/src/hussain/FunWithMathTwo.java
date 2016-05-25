@@ -1,5 +1,6 @@
 package hussain;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class FunWithMathTwo {
@@ -10,7 +11,7 @@ public class FunWithMathTwo {
 	 */
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		DecimalFormat df = new DecimalFormat("0.000");
 		
 		Scanner scan = new Scanner(System.in);
 		
@@ -23,11 +24,10 @@ public class FunWithMathTwo {
 		System.out.println("what is your second number?");
 		num2 = Double.parseDouble(scan.nextLine());
 		
-		
-		System.out.println("when you add them, the answerr is " + (addNumbers(num1, num2)));
+		System.out.println("when you add them, the answerr is " + df.format (addNumbers(num1, num2)));
 		System.out.println("when you subtract them, the answer is " + (subtractNumbers(num1, num2)));
 		System.out.println("when you multiply them, the answer is " + (multiplyNumbers(num1, num2)));
-		System.out.println("when you divide them, the answer is " + (divideNumbers(num1, num2)));
+		System.out.println("when you divide them, the answer is " + df.format(divideNumbers(num1, num2)));
 		
 		
 	}
