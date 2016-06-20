@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class WordGuess {
 	/* Jared Hussain
 	 * Word Guess Program
-	 * user plays a guessing game with the computer
+	 * user plays a guessing game with the computerw
 	 * May 11, 2016
 	 */
 
@@ -46,7 +46,7 @@ public class WordGuess {
 
 					numbers = realWord[randomGuess].indexOf(letters);
 					if (numbers== -1){
-						System.out.println("that letter fis not found");
+						System.out.println("that letter is not found");
 					}
 					else{
 						word = word.substring(0, numbers) + letters + word.substring ((numbers+1), word.length()); 

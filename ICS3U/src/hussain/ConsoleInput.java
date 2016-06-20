@@ -7,6 +7,7 @@ package hussain;
 import java.util.Scanner;
 
 public class ConsoleInput {
+	
 
 	public static void main(String[] arges) {
 	
@@ -19,7 +20,7 @@ public class ConsoleInput {
 		
 		System.out.println("Mothers Name");
 		nameOfMother = scan.nextLine();
-		System.out.println("When was your mother born?");
+		
 		mothersAge = Integer.parseInt(scan.nextLine());
 		System.out.println("Your Name");
 		nameOfChild = scan.nextLine();

@@ -16,8 +16,7 @@ public class IfProgram {
 		Scanner scan = new Scanner(System.in);
 		
 		// collect information
-		System.out.println("what is your number?");
-		Number = Integer.parseInt(scan.nextLine());
+		Scanner scan = new Scanner(System.in);
 		
 		// calculate and display output
 		if (Number > 0)
